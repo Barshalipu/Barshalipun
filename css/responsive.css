@@ -47,7 +47,7 @@
         display: block;
     }
     .flip-clock-wrapper {
-        width: 96% !important;
+        width: 100% !important;
     }
 }
 
@@ -115,15 +115,59 @@
     }
     .days .flip-clock-label {
         position: absolute !important;
-        left: 179px !important;
-        top: 48px !important;
+        left: -12px !important;
+        top: 97px !important;
     }
+
+    .minutes .flip-clock-label {
+        position: absolute !important;
+        left: -406px !important;
+        top: 201px !important;
+    }
+    .seconds .flip-clock-label {
+        position: absolute !important;
+        left: -3px !important;
+        top: 94px !important;
+    }
+
+    .flip-clock-wrapper ul li a div div.inn {
+        position: absolute !important;
+        left: 0 !important;
+        font-size: 52px !important;
+    }
+
+    
+    .hours .flip-clock-label {
+        position: absolute !important;
+        left: -12px !important;
+        top: 97px !important;
+    }
+    .flip-clock-wrapper ul li {
+     
+        width: 100%;
+        height: 100% !important;
+        line-height: 70px !important;
+        text-decoration: none !important;
+    }
+
     .flip-clock-wrapper {
-        width: 96% !important;
+        width: 100% !important;
     }
     .ws_counter {
         display: block;
     }
+
+    .flip-clock-wrapper ul{
+        width: 40px !important;
+        height: 70px !important;
+        margin: 19px 2px!important;
+    }
+    .flip-clock-wrapper {
+        width: 100% !important;
+        bottom: -167px;
+    }
+
+
 }
 
 @media (max-width: 320px) {
